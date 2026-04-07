@@ -1,0 +1,160 @@
+{
+  "states": [
+    {
+      "id": "UP",
+      "name": "Uttar Pradesh",
+      "lpg": {
+        "total_consumers_lakh": 1890,
+        "ujjwala_consumers_lakh": 320,
+        "monthly_sales_lmt": 68.4,
+        "avg_refills_per_year": 3.8,
+        "ujjwala_refills_per_year": 2.1,
+        "bottling_capacity_tmtpa": 1850,
+        "how_many_get_supply_pct": 72,
+        "distributor_count": 3420
+      },
+      "electricity": {
+        "total_capacity_mw": 28000,
+        "peak_demand_mw": 24000,
+        "shortage_pct": 4.2,
+        "wasted_in_lines_pct": 19.8
+      },
+      "people": {
+        "below_poverty_line_pct": 29.4,
+        "live_in_villages_pct": 77.7,
+        "cook_with_lpg_pct": 51.3,
+        "cook_with_wood_pct": 44.2
+      }
+    },
+    {
+      "id": "Bihar",
+      "name": "Bihar",
+      "lpg": {
+        "total_consumers_lakh": 810,
+        "ujjwala_consumers_lakh": 210,
+        "monthly_sales_lmt": 28.1,
+        "avg_refills_per_year": 3.1,
+        "ujjwala_refills_per_year": 1.6,
+        "bottling_capacity_tmtpa": 620,
+        "how_many_get_supply_pct": 61,
+        "distributor_count": 1840
+      },
+      "electricity": {
+        "total_capacity_mw": 6500,
+        "peak_demand_mw": 5200,
+        "shortage_pct": 11.4,
+        "wasted_in_lines_pct": 28.1
+      },
+      "people": {
+        "below_poverty_line_pct": 33.7,
+        "live_in_villages_pct": 88.7,
+        "cook_with_lpg_pct": 34.1,
+        "cook_with_wood_pct": 63.2
+      }
+    },
+    {
+      "id": "Rajasthan",
+      "name": "Rajasthan",
+      "lpg": {
+        "total_consumers_lakh": 830,
+        "ujjwala_consumers_lakh": 180,
+        "monthly_sales_lmt": 31.2,
+        "avg_refills_per_year": 4.4,
+        "ujjwala_refills_per_year": 2.6,
+        "bottling_capacity_tmtpa": 780,
+        "how_many_get_supply_pct": 68,
+        "distributor_count": 2010
+      },
+      "electricity": {
+        "total_capacity_mw": 20000,
+        "peak_demand_mw": 15800,
+        "shortage_pct": 2.1,
+        "wasted_in_lines_pct": 16.4
+      },
+      "people": {
+        "below_poverty_line_pct": 14.7,
+        "live_in_villages_pct": 75.1,
+        "cook_with_lpg_pct": 58.9,
+        "cook_with_wood_pct": 37.4
+      }
+    },
+    {
+      "id": "MP",
+      "name": "Madhya Pradesh",
+      "lpg": {
+        "total_consumers_lakh": 1020,
+        "ujjwala_consumers_lakh": 240,
+        "monthly_sales_lmt": 38.6,
+        "avg_refills_per_year": 4.1,
+        "ujjwala_refills_per_year": 2.2,
+        "bottling_capacity_tmtpa": 910,
+        "how_many_get_supply_pct": 65,
+        "distributor_count": 2480
+      },
+      "electricity": {
+        "total_capacity_mw": 21000,
+        "peak_demand_mw": 14200,
+        "shortage_pct": 1.8,
+        "wasted_in_lines_pct": 22.3
+      },
+      "people": {
+        "below_poverty_line_pct": 31.6,
+        "live_in_villages_pct": 72.4,
+        "cook_with_lpg_pct": 48.2,
+        "cook_with_wood_pct": 48.9
+      }
+    },
+    {
+      "id": "Jharkhand",
+      "name": "Jharkhand",
+      "lpg": {
+        "total_consumers_lakh": 380,
+        "ujjwala_consumers_lakh": 120,
+        "monthly_sales_lmt": 13.4,
+        "avg_refills_per_year": 2.8,
+        "ujjwala_refills_per_year": 1.4,
+        "bottling_capacity_tmtpa": 310,
+        "how_many_get_supply_pct": 54,
+        "distributor_count": 890
+      },
+      "electricity": {
+        "total_capacity_mw": 4800,
+        "peak_demand_mw": 3200,
+        "shortage_pct": 6.8,
+        "wasted_in_lines_pct": 24.6
+      },
+      "people": {
+        "below_poverty_line_pct": 36.96,
+        "live_in_villages_pct": 76.0,
+        "cook_with_lpg_pct": 28.4,
+        "cook_with_wood_pct": 69.1
+      }
+    },
+    {
+      "id": "MH",
+      "name": "Maharashtra",
+      "lpg": {
+        "total_consumers_lakh": 1640,
+        "ujjwala_consumers_lakh": 180,
+        "monthly_sales_lmt": 72.1,
+        "avg_refills_per_year": 6.2,
+        "ujjwala_refills_per_year": 3.1,
+        "bottling_capacity_tmtpa": 2100,
+        "how_many_get_supply_pct": 88,
+        "distributor_count": 4100
+      },
+      "electricity": {
+        "total_capacity_mw": 42000,
+        "peak_demand_mw": 28000,
+        "shortage_pct": 0.8,
+        "wasted_in_lines_pct": 14.2
+      },
+      "people": {
+        "below_poverty_line_pct": 17.4,
+        "live_in_villages_pct": 54.8,
+        "cook_with_lpg_pct": 74.2,
+        "cook_with_wood_pct": 22.1
+      }
+    }
+  ]
+}

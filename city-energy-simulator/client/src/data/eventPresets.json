@@ -1,0 +1,44 @@
+[
+  {
+    "id": "price_hike",
+    "label": "LPG Price Hike (+₹100)",
+    "description": "Cylinder price goes up ₹100. Poor households stop booking refills.",
+    "effect": { "lpg_demand_multiplier": 0.75 }
+  },
+  {
+    "id": "tanker_strike",
+    "label": "Tanker Driver Strike",
+    "description": "Drivers strike for 5 days. Gas deliveries stop.",
+    "effect": { "lpg_refill_multiplier": 0.2, "duration_days": 5 }
+  },
+  {
+    "id": "monsoon_flood",
+    "label": "Monsoon Road Flooding",
+    "description": "Floods cut off supply routes to villages for 7 days.",
+    "effect": { "lpg_refill_multiplier": 0, "duration_days": 7 }
+  },
+  {
+    "id": "summer_heat",
+    "label": "Summer Heatwave",
+    "description": "Everyone runs fans and ACs. Electricity demand jumps 45%.",
+    "effect": { "sector": "residential", "demand_multiplier": 1.45 }
+  },
+  {
+    "id": "hospital_emergency",
+    "label": "Mass Casualty Event",
+    "description": "Hospitals need 80% more power than usual.",
+    "effect": { "sector": "healthcare", "demand_multiplier": 1.8 }
+  },
+  {
+    "id": "line_trip",
+    "label": "Transmission Line Failure",
+    "description": "A major power line trips. Electricity supply drops 35%.",
+    "effect": { "electricity_supply_multiplier": 0.65 }
+  },
+  {
+    "id": "subsidy_delay",
+    "label": "Ujjwala Subsidy Delayed",
+    "description": "Government subsidy payment delayed. Poor households defer refill.",
+    "effect": { "lpg_demand_multiplier": 0.7 }
+  }
+]

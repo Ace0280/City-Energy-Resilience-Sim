@@ -56,6 +56,19 @@ npm install
 node server.js
 ```
 
+## Run on the Web (GitHub Pages)
+
+The frontend is configured for GitHub Pages deployment through a GitHub Action.
+
+1. Push to `main` (already configured)
+2. In GitHub repo settings, open **Pages**
+3. Set source to **GitHub Actions**
+4. Wait for the workflow **Deploy Client to GitHub Pages** to finish
+
+Your live URL will be:
+
+`https://ace0280.github.io/City-Energy-Resilience-Sim/`
+
 ## Current Status
 
 Core engine work is in progress and includes:

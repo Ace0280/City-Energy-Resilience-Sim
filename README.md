@@ -1,9 +1,26 @@
 # City Energy Resilience Simulator
 
-City Energy Resilience Simulator is a hackathon project that models how LPG and electricity disruptions affect Indian states.  
-It combines a simple simulation engine with a risk prediction layer to show where stress builds first, how fast gas reserves drain, and which sectors should be prioritized during a crisis.
+City Energy Resilience Simulator is a data-driven decision support tool for crisis planning in Indian states.  
+It models how LPG and electricity shocks interact, estimates how quickly essential fuel access collapses, and recommends sector-wise energy allocation strategies to reduce humanitarian and infrastructure risk.
 
 The project uses real-world state profile inputs (such as LPG access, Ujjwala refill behavior, power shortage, and line loss) to keep the outputs grounded in practical conditions.
+
+## Project Description
+
+This project addresses a practical smart-city question: if LPG and power supply are disrupted, which regions fail first and what should be prioritized to reduce harm.  
+The simulator combines:
+
+- A state-aware disruption engine
+- A risk prediction model based on real indicators
+- Allocation policies for healthcare, residential, transport, and industry
+- A timeline view to show how fast conditions deteriorate
+
+The result is a transparent, explainable system that can support planning discussions, demo analysis, and rapid policy what-if testing.
+
+## Live Demo
+
+- Vercel (Production): `https://city-energy-resilience-sim.vercel.app`
+- GitHub Pages: `https://ace0280.github.io/City-Energy-Resilience-Sim/`
 
 ## What It Does
 
@@ -84,7 +101,7 @@ Use these settings while importing the repo:
 
 ## Current Status
 
-Core engine work is in progress and includes:
+Implemented:
 
 - Simulation engine
 - Prediction model
@@ -92,8 +109,9 @@ Core engine work is in progress and includes:
 - Risk engine
 - Time-step runner
 - Simulation context wiring
-
-Remaining work includes backend API completion and frontend dashboard components.
+- Backend API (`POST /api/simulate`)
+- Frontend dashboard components (state selector, prediction, controls, charts, timeline, event injection)
+- Ethical mode selector and dark-theme responsive UI pass
 
 ## Notes
 

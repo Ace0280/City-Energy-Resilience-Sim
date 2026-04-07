@@ -69,6 +69,19 @@ Your live URL will be:
 
 `https://ace0280.github.io/City-Energy-Resilience-Sim/`
 
+## Run on the Web (Vercel)
+
+This project can also be deployed on Vercel.
+
+Use these settings while importing the repo:
+
+- Framework Preset: `Vite`
+- Root Directory: `city-energy-simulator/client`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+
+`vercel.json` is already included in the client folder for SPA rewrites.
+
 ## Current Status
 
 Core engine work is in progress and includes:
